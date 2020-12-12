@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Asap+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
 *, *::before,
 *::after {
@@ -16,13 +17,70 @@ html, body {
 }
 
 a {
-	font-weight: 700;
-  	text-decoration: none;
-  	text-transform: uppercase;
-  	position: relative;
-  	color: #333;
-  	padding: 10px 0px;
-  	letter-spacing: 1px;
-  	font-size: 12.5px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #333;
+  padding: 10px 0px;
+  letter-spacing: 1px;
+  font-size: 12.5px;
 }
+
+.content-section--fullpage {
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  background-image: url(../images/Background2.svg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content-section__headline-container {
+  position: relative;
+}
+.content-section__headline-container span {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  font-size: 100px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.content-section__headline {
+  margin: 0;
+  opacity: 0;
+  font-weight: 700;
+  color: #dde1e4;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 400px;
+}
+
+.subDivisor {
+  height: 75%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../images/subdivider2.svg);
+}
+
+.midSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+
+}
+
+
 
