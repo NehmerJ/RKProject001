@@ -84,3 +84,26 @@ a {
 
 
 
+@media only screen and (max-width: 1023px) {
+  .content-scetion--fullpage {height:45%;}
+  .content-section__headline-container span {font-size: 60px;}
+}
+
+@media only screen and (max-width: 904px) {
+  .midSection { height: 80%; }
+
+}
+
+@media only screen and (max-width: 785px) {
+  .content-section__headline-container span {font-size: 40px;}
+  .content-scetion--fullpage {height:35%;}
+}
+
+@media only screen and (max-width: 610px) {
+  .content-section__headline-container span {font-size: 30px;}
+  .content-scetion--fullpage {height:25%;}
+}
+
+@media only screen and (max-width: 515px) {
+  .content-section__headline-container span {font-size: 20px;}
+}
