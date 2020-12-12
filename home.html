@@ -7,87 +7,173 @@
 	<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 	<link rel="stylesheet" type="text/css" href="CSS/home.css">
-	<script src="https://kit.fontawesome.com/e0990894da.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="JS/main.js">
 </head>
 <body>
+
 	<nav class="navbar is-danger is-fixed-top" role="navigation" aria-label="main navigation">
-  <div class="navbar-end">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
+		<div class="navbar-end">
+			<a class="navbar-item" href="https://bulma.io">
+				<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+			</a>
 
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
 
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
+		<div id="navbarBasicExample" class="navbar-menu">
+			<div class="navbar-start">
+				<a class="navbar-item">
+					Home
+				</a>
 
-      <a class="navbar-item">
-        Documentation
-      </a>
+				<a class="navbar-item">
+					Documentation
+				</a>
 
-      <div class="navbar-item has-dropdown is-hoverable is-boxed">
-        <a class="navbar-link is-arrowless">
-          More
-        </a>
+				<div class="navbar-item has-dropdown is-hoverable is-boxed">
+					<a class="navbar-link is-arrowless">
+						More
+					</a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
+					<div class="navbar-dropdown">
+						<a class="navbar-item">
+							About
+						</a>
+						<a class="navbar-item">
+							Jobs
+						</a>
+						<a class="navbar-item">
+							Contact
+						</a>
+						<hr class="navbar-divider">
+						<a class="navbar-item">
+							Report an issue
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="content-section--fullpage">
+		<div class="content-section__headline-container">
+			<h1 class="content-section__headline headlineTitle">Red Kangaroo</h1>
+		</div>
+
+		<span class="scroll-indicator">
+			<span class="scroll-indicator__line"></span>
+		</span>
+	</section>
+	<section class="content-section--fullpage"></section>
+
+	<div class="container midSection fade-scroll">
+		<div class="tile is-ancestor">
+			<div class="tile is-4 is-vertical is-parent">
+				<div class="tile is-child box">
+					<p class="title">One</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+				</div>
+				<div class="tile is-child box">
+					<p class="title">Two</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+				</div>
+			</div>
+			<div class="tile is-parent">
+				<div class="tile is-child box">
+					<p class="title">Three</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+					<p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+					<p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container midSection fade-scroll">
+		<div class="tile is-ancestor">
+			<div class="tile is-parent">
+				<div class="tile is-child box">
+					<p class="title">Three</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+					<p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+					<p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+				</div>
+			</div>
+			<div class="tile is-parent is-5">
+				<article class="tile is-child">
+					<figure class="image is-4by3">
+						<img src="https://bulma.io/images/placeholders/640x480.png">
+					</figure>
+				</article>
+			</div>
+		</div>
+	</div>
+
+	<div class="subDivisor fade-scroll"></div>
+
+	<div class="container midSection fade-scroll">
+		<div class="tile is-ancestor">
+			<div class="tile is-5 is-vertical is-parent">
+				<div class="tile is-child box">
+					<p class="title">One</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+				</div>
+				<div class="tile is-child box">
+					<p class="title">Two</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+				</div>
+			</div>
+			<div class="tile is-parent">
+				<div class="tile is-child box">
+					<p class="title">Three</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+					<p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
+					<p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="subDivisor fade-scroll"></div>
+
+	<footer class="footer">
+		<div class="content has-text-centered">
+			<p>
+				<strong>Red Kangaroo</strong> by Josh Nehmer. This is a demo site.
+				The website content
+				is unfinished.
+			</p>
+		</div>
+	</footer>
 
 
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
 
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+	<script src="https://kit.fontawesome.com/e0990894da.js" crossorigin="anonymous"></script>
+	<script src="JS/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
+	<script type="text/javascript">
+		$(function() {
 
-    // Add a click event on each of them
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
+			var documentEl = $(document),
+			fadeElem = $('.fade-scroll');
 
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
+			documentEl.on('scroll', function() {
+				var currScrollPos =documentEl.scrollTop();
+				fadeElem.each(function() {
+					var $this = $(this),
+					elemOffsetTop = $this.offset().top;
+					if (currScrollPos > elemOffsetTop) $this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/400);
+				})
+			});
+		});
+	</script>
 
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-
-      });
-    });
-  }
-
-});
-</script>
 </body>
 </html>
